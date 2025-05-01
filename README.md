@@ -5,8 +5,7 @@
 
 Uncensored Deepfakes for images and videos without training and an easy-to-use GUI.
 
-
-![Screen](https://github.com/asgod/roounlsh/docs/screenshot.png)
+![Screen](https://github.com/asgod/roounlsh/blob/bff44f6f382ed57b4fa7e026aaae5a07de06ec8c/docs/screenshot.png)
 
 ### Features
 
