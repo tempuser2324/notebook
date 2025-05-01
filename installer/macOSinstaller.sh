@@ -1,14 +1,14 @@
 #!/bin/bash
 
-# This script checks and installs all dependencies which are needed to run roop-unleashed. After that, it clones the repo.
-# Execute this easily with /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/PJF16/roop-unleashed/master/installer/macOSinstaller.sh)
+# This script checks and installs all dependencies which are needed to run roounlsh. After that, it clones the repo.
+# Execute this easily with /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asgod/roounlsh/main/installer/macOSinstaller.sh)
 
 # Function to check if a command exists
 command_exists() {
     command -v "$1" >/dev/null 2>&1
 }
 
-echo "Starting check and installation process of dependencies for roop-unleashed"
+echo "Starting check and installation process of dependencies for roounlsh"
 
 # Check if Homebrew is installed
 if ! command_exists brew; then
@@ -55,8 +55,8 @@ else
 fi
 
 # Clone the repository
-REPO_URL="https://github.com/C0untFloyd/roop-unleashed.git"
-REPO_NAME="roop-unleashed"
+REPO_URL="https://github.com/asgod/roounlsh.git"
+REPO_NAME="roounlsh"
 
 echo "Cloning the repository $REPO_URL..."
 git clone $REPO_URL

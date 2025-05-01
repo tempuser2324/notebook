@@ -9,7 +9,6 @@ __pycache__
 .vscode
 output
 temp
-config.yaml
 run.bat
 venv
 start.sh

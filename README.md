@@ -109,7 +109,7 @@ Happy New Year!
 
 **16.9.2024** v4.2.8
 
-- Bugfix: Starting roop-unleashed without NVIDIA gpu but cuda option enabled
+- Bugfix: Starting roounlsh without NVIDIA gpu but cuda option enabled
 - Bugfix: Target Faces couldn't be moved left/right
 - Bugfix: Enhancement and upscaling working again in virtual cam
 - Corrupt videos caught when adding to target files, displaying warning msg
@@ -217,7 +217,7 @@ Happy New Year!
 **08.01.2024** v3.5.0
 
 - Bugfix: wrong access options when creating folders
-- New auto rotation of horizontal faces, fixing bad landmark positions (expanded on ![PR 364](https://github.com/C0untFloyd/roop-unleashed/pull/364))
+- New auto rotation of horizontal faces, fixing bad landmark positions (expanded on ![PR 364](https://github.com/C0untFloyd/roounlsh/pull/364))
 - Simple VR Option for stereo Images/Movies, best used in selected face mode
 - Added RestoreFormer Enhancer - https://github.com/wzhouxiff/RestoreFormer
 - Bumped up package versions for onnx/Torch etc.   
