@@ -1,12 +1,12 @@
-# roop-unleashed
+# roounlsh
 
-[Changelog](#changelog) • [Usage](#usage) • [Wiki](https://github.com/C0untFloyd/roop-unleashed/wiki)
+[Changelog](#changelog) • [Usage](#usage) • [Wiki](https://github.com/asgod/roounlsh/wiki)
 
 
 Uncensored Deepfakes for images and videos without training and an easy-to-use GUI.
 
 
-![Screen](https://github.com/C0untFloyd/roop-unleashed/assets/131583554/6ee6860d-efbe-4337-8c62-a67598863637)
+![Screen](https://github.com/asgod/roounlsh/docs/screenshot.png)
 
 ### Features
 
@@ -35,12 +35,12 @@ In the event of violation of the legal and ethical requirements of the user's co
 
 ### Installation
 
-Please refer to the [wiki](https://github.com/C0untFloyd/roop-unleashed/wiki).
+Please refer to the [wiki](https://github.com/asgod/roounlsh/wiki).
 
 #### macOS Installation
 Simply run the following command. It will check and install all dependencies if necessary.
 
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/PJF16/roop-unleashed/master/installer/macOSinstaller.sh)"`
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asgod/roounlsh/main/installer/macOSinstaller.sh)"`
 
 
 
@@ -51,16 +51,16 @@ Simply run the following command. It will check and install all dependencies if 
 - macOS: `sh runMacOS.sh`
 - Dockerfile:
   ```shell
-  docker build -t roop-unleashed . && docker run -t \
+  docker build -t roounlsh . && docker run -t \
     -p 7860:7860 \
     -v ./config.yaml:/app/config.yaml \
     -v ./models:/app/models \
     -v ./temp:/app/temp \
     -v ./output:/app/output \
-    roop-unleashed
+    roounlsh
   ```
 
-<a target="_blank" href="https://colab.research.google.com/github/C0untFloyd/roop-unleashed/blob/main/roop-unleashed.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/asgod/roounlsh/blob/main/roounlsh.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
   
