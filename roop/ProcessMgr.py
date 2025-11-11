@@ -141,10 +141,13 @@ class ProcessMgr():
                 if p.type == "swap":
                     if self.options.swap_modelname == "InSwapper 128":
                         extoption.update({"modelname": "inswapper_128.onnx"})
+                    elif self.options.swap_modelname == "inswapper fp16 128":
+                        extoption.update({"modelname": "inswapper_fp16_128.onnx"})
                     elif self.options.swap_modelname == "ReSwapper 128":
                         extoption.update({"modelname": "reswapper_128.onnx"})
                     elif self.options.swap_modelname == "ReSwapper 256":
                         extoption.update({"modelname": "reswapper_256.onnx"})
+                    
 
                 p.Initialize(extoption)
                 newprocessors.append(p)
